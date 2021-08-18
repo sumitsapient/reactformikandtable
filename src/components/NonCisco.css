@@ -1,0 +1,76 @@
+.formcontainer {
+  padding-left: 184px;
+  padding-right: 184px;
+  font-family: system-ui;
+}
+.formcontainer-top {
+  margin-top: -15px;
+  font-size: revert;
+  color: gray;
+}
+.formcontainer-head {
+  font-size: large;
+  font-weight: 500;
+}
+.formcontainer-border {
+  border-bottom: 1px solid lightgray;
+}
+label.form-label:after {
+  content: "*";
+  color: #e43d40;
+}
+.form-event {
+  color: gray;
+  font-weight: 400;
+}
+.form-label {
+  font-size: 11px;
+  color: #145da0;
+  font-weight: 500;
+}
+.left-container {
+  float: left;
+  background: #003399;
+  width: 50%;
+  height: 135px;
+}
+
+.right-container {
+  float: right;
+  background: #003399;
+  width: 50%;
+  height: 135px;
+}
+.signup-heading {
+  padding-top: 12px;
+  padding-left: 50px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.signup-update {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 6px;
+  padding-top: 28px;
+}
+.signup-box {
+  text-align: center;
+  margin-top: 50px;
+}
+.signup-email {
+  padding: 12px;
+  border-radius: 25px 0px 0px 25px;
+  border-style: none;
+}
+.signup-btn {
+  border-radius: 0px 25px 25px 0px;
+  padding: 12px;
+  margin-left: -5px;
+  border-style: none;
+  background-color: #3399ff;
+  color: #ffffff;
+  padding-right: 47px;
+}
+.signup-confirm {
+  padding-left: 20px;
+}

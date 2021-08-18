@@ -1,0 +1,131 @@
+.formcontainer {
+  padding-left: 184px;
+  padding-right: 184px;
+  font-family: system-ui;
+}
+.formcontainer-top {
+  margin-top: -15px;
+  font-size: revert;
+  color: gray;
+}
+.formcontainer-head {
+  font-size: large;
+  font-weight: 500;
+}
+.formcontainer-border {
+  border-bottom: 1px solid lightgray;
+}
+.form-event {
+  color: gray;
+  font-weight: 400;
+}
+.form-label {
+  font-size: 11px;
+  color: #145da0;
+  font-weight: 500;
+}
+.form-element {
+  width: 100%;
+  padding: 6px 4px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-required {
+  color: red;
+}
+.form-select {
+  color: gray;
+  font-size: 10px;
+  width: 100%;
+  padding: 8px 4px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-date {
+  color: gray;
+  font-size: 10px;
+  width: 146%;
+  padding: 8px 8px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-upload {
+  background-color: #145da0;
+  border-radius: 3px;
+  border-style: none;
+  padding: 8px;
+  color: white;
+}
+.form-file {
+  padding-top: 10px;
+}
+.form-icon {
+  position: absolute;
+  font-size: 19px;
+  background-color: #ccc;
+  padding-left: 10px;
+  margin-top: 3px;
+  height: 28px;
+  width: 22px;
+  border-radius: 3px;
+}
+.form-notification {
+  background-color: #145da0;
+  border-radius: 3px;
+  border-style: none;
+  color: white;
+  padding: 8px;
+  margin-top: 14px;
+  margin-right: 21px;
+}
+.form-reset {
+  color: white;
+  background-color: #e43d40;
+  border-radius: 3px;
+  border-style: none;
+  padding: 8px;
+}
+.column {
+  float: left;
+  position: relative;
+  width: 20%;
+
+  box-sizing: border-box;
+}
+
+.column-offset-1 {
+  left: 31%;
+  margin-top: 2px;
+}
+.column-offset-2 {
+  left: 36%;
+}
+.column-offset-3 {
+  left: 60%;
+}
+
+.column-inset-1 {
+  left: -20%;
+}
+.column-inset-2 {
+  left: -40%;
+}
+.column-inset-3 {
+  left: -60%;
+}
+.form-scope {
+  margin-top: 23px;
+  font-size: 11px;
+  color: #145da0;
+  font-weight: 500;
+}
